@@ -38,7 +38,7 @@ class MyGrid(GridLayout): #will contain all necessary code for buttons, grids, e
 		self.submit.bind(on_press = self.pressed) #links the definition of the pressed function to the physical clicking of Button on the screen
 		self.add_widget(self.submit)
 
-	def pressed(self, instance): #defines what Button does when it is "pressed"
+	def pressed(self, instance): #defines what Button does when it's "pressed"
 		first_name = self.firstName.text
 		last_name = self.lastName.text
 		email = self.email.text
